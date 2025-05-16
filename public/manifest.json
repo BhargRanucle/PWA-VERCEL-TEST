@@ -1,7 +1,8 @@
-
 {
   "short_name": "Ranucle PWA",
   "name": "Ranucle Progressive Web App",
+  "description": "An advanced and user-friendly Progressive Web App for seamless online experiences.",
+  "id": "/",
   "icons": [
     {
       "src": "favicon.ico",
@@ -19,8 +20,26 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#0091ea",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "launch_handler": {
+    "client_mode": "navigate-new"
+  },
+  "orientation": "portrait-primary",
+  "screenshots": [
+    {
+      "src": "screenshot1.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "label": "Homepage"
+    },
+    {
+      "src": "screenshot2.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "label": "Settings Page"
+    }
+  ]
 }
