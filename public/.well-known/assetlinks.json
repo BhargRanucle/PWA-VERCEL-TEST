@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "app.vercel.pwa_vercel_test.twa",
+        "sha256_cert_fingerprints": ["C8:A0:6A:72:01:04:BB:1C:F0:85:0E:17:86:46:63:E3:C3:F6:93:3E:CA:2D:B1:6E:D9:7B:00:DB:71:9C:59:39"]
+      }
+    }]
